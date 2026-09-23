@@ -147,12 +147,17 @@ lost_found_api/
 
 ## Proof of Work
 
-Screenshots demonstrating successful execution of the following operations are included in the `screenshots` folder:
+All screenshots demonstrating the successful execution and testing of the API endpoints are provided in the attached **Word document**.
 
-* POST `/items`
-* GET `/items`
-* GET `/items/{item_id}`
-* PUT `/items/{item_id}`
-* DELETE `/items/{item_id}`
-* Status filtering
-* Category filtering
+The document includes screenshots for:
+
+* POST `/items` – Create a new item
+* GET `/items` – Retrieve all items
+* GET `/items/{item_id}` – Retrieve an item by ID
+* PUT `/items/{item_id}` – Update an existing item
+* DELETE `/items/{item_id}` – Delete an item
+* GET `/items/status/{status}` – Filter items by status
+* GET `/items/category/{category}` – Filter items by category
+
+The screenshots provide evidence of successful API execution through the FastAPI Swagger UI.
+
